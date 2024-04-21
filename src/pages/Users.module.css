@@ -1,0 +1,104 @@
+.sectionTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.ctaButton,
+.actionButton {
+  background-color: rgb(100, 148, 237);
+  color: #fff;
+  padding: 5px 20px;
+  font-size: 18px;
+  border-radius: 50px;
+  border: none;
+}
+
+.ctaButton:hover {
+  background-color: rgba(100, 148, 237, 0.9);
+}
+
+.actionButton {
+  background-color: rgb(49, 177, 49);
+}
+
+.actionButton:hover {
+  background-color: rgba(49, 177, 49, 0.9);
+}
+
+.usersTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.usersTable tr {
+  background-color: beige;
+}
+
+.usersTable thead tr {
+  background-color: gainsboro;
+}
+
+.usersTable th,
+.usersTable td {
+  padding: 8px;
+}
+
+.usersTable th:first-child {
+  border-radius: 10px 0 0 0;
+}
+
+.usersTable th:last-child {
+  border-radius: 0 10px 0 0;
+}
+
+.usersTable tbody tr {
+  border-top: 1px solid #000;
+}
+
+.usersTable tbody tr:last-child td:first-child {
+  border-radius: 0 0 0 10px;
+}
+
+.usersTable tbody tr:last-child td:last-child {
+  border-radius: 0 0 10px 0;
+}
+
+.usersTable tr td:last-child {
+  width: 100px;
+  text-align: center;
+}
+
+.usersTable tr td:last-child>a,
+.usersTable tr td:last-child>button {
+  font-size: 18px;
+  text-align: center;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+
+.usersTable tr td:last-child>a:hover,
+.usersTable tr td:last-child>button:hover {
+  display: inline-block;
+  scale: 1.1;
+}
+
+.actionForm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.actionForm input,
+.actionForm select {
+  width: 350px;
+  padding: 10px 20px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #aaa;
+  border-radius: 50px;
+}

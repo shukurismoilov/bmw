@@ -1,5 +1,6 @@
 {
   "name": "bmw",
+  "description": "react + react router + zustand + fetch + json server",
   "private": true,
   "version": "0.0.0",
   "type": "module",

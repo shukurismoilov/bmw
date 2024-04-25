@@ -2,8 +2,8 @@
   "users": [
     {
       "id": "1",
-      "name": "John Doe",
-      "login": "john_doe",
+      "name": "John Does",
+      "login": "john_does",
       "email": "john@example.com",
       "password": "hashed_password",
       "age": 27

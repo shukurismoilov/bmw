@@ -14,8 +14,7 @@ const useUserStore = create((set) => ({
 
       set({ allLoading: false })
       set({ allError: null })
-      set({ all: responseData })
-
+      return set({ all: responseData })
     } catch (error) {
       set({ allLoading: false })
       set({ allError: error })
@@ -36,7 +35,6 @@ const useUserStore = create((set) => ({
       const responseData = await response.json()
       set({ oneLoading: false })
       set({ oneError: null })
-      
       return set({ one: responseData })
     } catch (error) {
       set({ oneLoading: false })

@@ -1,11 +1,12 @@
 import { createBrowserRouter } from 'react-router-dom'
-import { useUserStore } from './stores'
+import { useUserStore } from './users/stores'
+
 import {
   UserListPage,
   AddUserPage,
   UserDetailsPage,
   EditUserPage,
-} from './pages'
+} from './users/pages'
 
 
 const router = createBrowserRouter([
